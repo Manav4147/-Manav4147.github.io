@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.dark-mode {
+    background-color: black;
+    color: #ffffff;
+}
+
+.dark-mode-section {
+    color: white;
+}
+header {
+    background:url('plane.gif') center/cover;
+    padding: 10px;
+    text-align: center;
+    color:black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F7AE07;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+nav img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4285f4;
+}
+main {
+    display: flex;
+}
+section {
+    flex: 3;
+    padding: 20px;
+    order: 2;
+}
+section.highlight {
+    background-color: #ABDCFA; 
+}
+aside {
+    flex: 1;
+    background-color: #07F766;
+    padding: 20px;
+    height: fit-content;
+    text-align: left;
+    order: 1; 
+}
+
+aside {
+    margin-right: 20px;
+}
+button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2661c0;
+}
+
+/* Style for the "Change Content" button */
+#changeContentButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#changeContentButton:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Style for the "Add Sidebar Item" button */
+#addItemButton {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addItemButton:hover {
+    background-color: #0077a3; /* Darker blue */
+}
+
+/* Style for the "Remove Sidebar Item" button */
+#removeItemButton {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#removeItemButton:hover {
+    background-color: #d32f2f; /* Darker red */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

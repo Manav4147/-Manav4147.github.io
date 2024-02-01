@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Manipulation Assignment</title>
+</head>
+<body>
+
+    <header>
+        <div class="Heading">
+            <h1>DOM Manipulation Example</h1>
+        </div>
+    </header>
+
+
+<br>
+<nav>
+    <div class="nav-item">
+        <img src="cr.jpeg" width="100" height="100" alt="Country roads">
+        <a href="https://www.youtube.com/watch?v=uu7j_xljCRY" id="link1">Country roads</a>
+    </div>
+    
+    <div class="nav-item">
+        <img src="utify.jpeg" width="100" height="100" alt="Until I found you">
+        <a href="https://www.youtube.com/watch?v=GxldQ9eX2wo" id="link2">Until I found you</a>
+    </div>
+    
+    <div class="nav-item">
+        <img src="neil diamond.jpeg" width="100" height="100" alt="Neil diamond">
+        <a href="https://www.youtube.com/watch?v=4F_RCWVoL4s"  id="link3">Sweet Caroline</a>
+    </div>
+
+    <div class="nav-item">
+        <button onclick="toggleDarkMode()">Dark mode</button>
+    </div>
+    
+</nav>
+
+
+    <main>
+        <section id="section1">
+            <p>
+             <b>1. Country Roads (Take Me Home)
+                 <i>- Artist: John Denver</i></b>
+                <p>Description: "Country Roads (Take Me Home)" is an iconic folk-country song by John Denver, released in 1971. It has become a timeless classic, known for its heartfelt lyrics and Denver's soulful delivery.</p>
+                <p> The song captures the yearning for a place called home, specifically West Virginia, with vivid imagery of winding roads, mountains, and a sense of belonging. The narrative resonates with the universal desire for connection to one's roots and the comfort found in familiar landscapes.</p>
+                <p> Denver's gentle voice and the song's uplifting melody contribute to its enduring popularity, making it a beloved anthem that transcends generations.</p>
+            <p>
+            </p>
+        </section>
+        <br/>
+        <section id="section2">
+            <p>
+                <b>2. Until I Found You
+                  <i>- Artist: Marc Almond</i></b>
+               <p> Description: "Until I Found You" by Stephen Sanchez is a beautifully crafted song that resonates deeply with themes of love, discovery, and emotional transformation. Characterized by a gentle melody and soft, acoustic guitar strumming, the song provides a warm backdrop to Sanchez's expressive vocals. The thoughtfully composed lyrics weave a narrative of finding true love and the profound impact it has on one's life.</p>
+
+                <p>Sanchez's rich and emotive voice carries the song's message with sincerity, blending classic vocal styles with a modern sensibility for a timeless quality. The memorable chorus features a catchy melody that lingers in the listener's memory. Instrumentally, the song is minimalist yet elegant, allowing the focus to remain on the lyrics and vocal performance, with subtle harmonies and light percussion adding depth.</p>
+                
+                <p>Thematically, "Until I Found You" explores the transformative power of love, reflecting on how finding the right person can bring newfound joy and meaning to life. The lyricism strikes a balance between poetic imagery and relatable emotions, making it a song that many can connect with on a personal level.</p>
+                
+                <p>In summary, "Until I Found You" is a heartfelt and beautifully rendered song by Stephen Sanchez, showcasing his talent as a singer-songwriter. Its touching lyrics, soothing melodies, and emotive vocal delivery make it a standout track for those who appreciate thoughtful, romantic music.</p>
+            <p>
+           <p>
+        </section>
+        <br/>
+        <section id="section3">
+            <p>
+                <b>3. Sweet Caroline
+                   <i>- Artist: Neil Diamond</i></b>
+                <p> Description:  "Sweet Caroline" by Neil Diamond is a timeless and infectious classic released in 1969. The song is characterized by its catchy melody, upbeat tempo, and sing-along chorus. The lyrics are an ode to Caroline Kennedy, the daughter of President John F. Kennedy, though Diamond has said it's not entirely about her.</p>
+                <p> The iconic "Sweet Caroline, bah, bah, bah" chorus has made the song a staple at various events, especially sporting occasions. Its celebratory and feel-good nature has turned it into an anthem that brings people together, fostering a sense of camaraderie and joy.</p>
+                <p> Neil Diamond's smooth vocals and the song's enduring popularity have cemented "Sweet Caroline" as a cultural phenomenon.</p>
+                <p>
+            </p>
+        </section>
+        
+        <aside id="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li class="sidebar-item" data-target="section1">Country Roads</li><br>
+                <li class="sidebar-item" data-target="section2">Until I Found You</li><br>
+                <li class="sidebar-item" data-target="section3">Sweet Caroline</li>
+            </ul>
+            <!-- Add these buttons to your HTML code -->
+<button id="changeContentButton">New</button><br><br>
+<button id="addItemButton">Add </button><br><br>
+<button id="removeItemButton">Remove</button><br><br>
+
+        </aside>
+        
+    </main>
+
+    <footer>
+        &copy; 2024 Manav Shah
+    </footer>
+
+    <script src="script.js" defer></script>
+
+
+</body>
+</html>
